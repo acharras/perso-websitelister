@@ -1,0 +1,69 @@
+.IntroPage {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    height: 70vh;
+    border-radius: 15px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.IntroPage::-webkit-scrollbar-thumb {
+    background-color: wheat;
+    border-radius: 50px;
+    }
+    
+.IntroPage::-webkit-scrollbar {
+/* display: none; */
+background-color: rgb(128 128 128 / 42%);
+border-radius: 50px;
+width: 5px;
+}
+
+.IntroText {
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 70vh;
+    width: 80vw;
+    color: #FFFEF3;
+    font-size: min(2vh, 20px);
+    padding-top: 0;
+}
+
+.TextZone {
+    height: 100%;
+    width: 100%;
+}
+
+.IntroAbout {
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    background: rgba(100, 100, 100, 0.4);
+    border-radius: 15px;
+
+}
+
+.IntroProject {
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    background: rgba(100, 100, 100, 0.4);
+    border-radius: 15px;
+}
+
+.IntroContact {
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    background: rgba(100, 100, 100, 0.4);
+    border-radius: 15px;
+}
+
+.IntroPage:hover + .PannelMain{
+    transform: scale(2);
+    transition-duration: 500ms;
+}

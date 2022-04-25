@@ -1,0 +1,96 @@
+.PannelMain {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-direction: column;
+    width: 20vw;
+    max-width: 350px;
+    min-width: 150px;
+    height: 100vh;
+    background: #111118;
+    color: #8BA7B6;
+}
+
+.NewLangage {
+    border: transparent;
+    background: transparent;
+    color: #8BA7B6;
+    font-size: min(2vh, 20px);
+    cursor: pointer;
+}
+
+.NewLangage:hover {
+    transform: scale(1.2);
+    transition-duration: 500ms;
+}
+
+.ButtonPannel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.About {
+    border: transparent;
+    background: transparent;
+    color: #8BA7B6;
+    font-size: min(2vh, 20px);
+    cursor: pointer;
+}
+
+.About:hover {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transition-duration: 500ms;
+}
+
+
+
+.Contact {
+    border: transparent;
+    background: transparent;
+    color: #8BA7B6;
+    font-size: min(2vh, 20px);
+    cursor: pointer;
+}
+
+.Contact:hover {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transition-duration: 500ms;
+}
+
+.Project {
+    border: transparent;
+    background: transparent;
+    color: #8BA7B6;
+    font-size: min(2vh, 20px);
+    cursor: pointer;
+}
+
+.Project:hover {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transition-duration: 500ms;
+}
+
+.TriplePoint {
+    color:#505D65;
+}
+
+.BtnStyle, .BtnAbout, .BtnProject, .BtnContact {
+    height: 15px;
+    width: 15px;
+    background: #3B3B54;
+    -ms-transform: rotate(45deg); /* Internet Explorer */
+    -moz-transform: rotate(45deg); /* Firefox */
+    -webkit-transform: rotate(45deg); /* Safari et Chrome */
+    -o-transform: rotate(45deg); /* Opera */
+}
+
