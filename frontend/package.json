@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://antoine-charras.fr",
+  "homepage": "https://acharras.github.io/perso-websitelister",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@headlessui/react": "^1.4.1",
@@ -52,7 +52,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
