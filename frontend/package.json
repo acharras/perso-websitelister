@@ -2,7 +2,6 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://acharras.github.io/perso-websitelister",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@headlessui/react": "^1.4.1",
@@ -35,7 +34,7 @@
     "react-cookie": "^4.1.1",
     "react-dom": "^17.0.2",
     "react-hook-form": "^7.25.3",
-    "react-router-dom": "^5.3.0",
+    "react-router-dom": "5.3.0",
     "react-scripts": "^4.0.3",
     "react-scroll": "^1.8.7",
     "react-tsparticles": "^2.0.6",
