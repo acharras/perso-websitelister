@@ -87,7 +87,7 @@ export function Pannel() {
                     <br />
                 </div>
             </div>
-            <div>
+            <div className="Footer">
                 <div>
                 Follow me
                 </div>

@@ -84,7 +84,7 @@
     color:#505D65;
 }
 
-.BtnStyle, .BtnAbout, .BtnProject, .BtnContact {
+.BtnStyle {
     height: 15px;
     width: 15px;
     background: #3B3B54;
@@ -94,3 +94,7 @@
     -o-transform: rotate(45deg); /* Opera */
 }
 
+
+.Footer {
+    font-size: min(1.5vh, 20px);
+}

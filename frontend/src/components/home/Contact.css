@@ -42,12 +42,14 @@
     width: 50%;
     height: 100%;
     background: #111118;
+    color: rgba(100, 100, 100, 1);
 }
 
 #EmailItem {
     width: 50%;
     height: 100%;
     background: #111118;
+    color: rgba(100, 100, 100, 1);
 }
 
 #SubjectDiv {
@@ -59,6 +61,7 @@
     width: 75%;
     height: 100%;
     background: #111118;
+    color: rgba(100, 100, 100, 1);
 }
 
 #MessageDiv {
@@ -70,17 +73,17 @@
     width: 75%;
     height: 100%;
     background: #111118;
+    color: rgba(100, 100, 100, 1);
 }
 
 .SubmitBtn {
-    padding: 0 23px;
-    height: 40px;
+    padding: 0 1vw;
+    height: 4vh;
     cursor: pointer;
     display: inline-block;
-    line-height: 34px;
     border: 2px solid #008bff;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: min(2vh, 14px);;
     position: relative;
     z-index: 2;
     background: #111118;

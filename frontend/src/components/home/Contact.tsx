@@ -32,15 +32,15 @@ function Contact(props:any)  {
     if (Name && Email) {
       emailjs
         .send(
-          "service_oc8qznf",
-          "template_oc0q9be",
+          "service_hd4087m",
+          "template_ub6u6mm",
           {
             Email: Email,
             Subject: Subject,
             Message: Message,
             Name: Name
           },
-          "user_HDJ1SCLZ6I6ByO7Ey8D36"
+          "m5NwFX5P-uswMsyZ5"
         )
         .then(
           (result) => {
@@ -100,7 +100,7 @@ function Contact(props:any)  {
                       onChange={(e) => {
                         setSubject(e.target.value);
                       }}
-                      placeholder="Write a Subject"
+                      placeholder="Write a Subject *"
                     />
                   </label>
                   </div>
@@ -113,7 +113,7 @@ function Contact(props:any)  {
                       onChange={(e) => {
                         setMessage(e.target.value);
                       }}
-                      placeholder="Your Message"
+                      placeholder="Your Message *"
                     />
                   </label>
                   </div>
