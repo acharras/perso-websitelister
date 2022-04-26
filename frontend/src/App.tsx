@@ -15,7 +15,7 @@ function Menu(data: any) {
   
 	return (
     <>
-    
+
 			<Route exact path={"/"} component={Home} />
 		</>
 	)
@@ -60,11 +60,11 @@ function App() {
         <source src={Background} type='video/mp4' />
       </video>
     </div>
-		<Router>
+    <Router>
 			<Switch>
 				<Menu />
 			</Switch>
-		</Router>
+    </Router>
     </>
 	);
 }
