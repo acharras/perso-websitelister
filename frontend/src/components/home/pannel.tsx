@@ -1,6 +1,8 @@
 import "./pannel.css"
 import { useCookies } from "react-cookie";
 import $ from "jquery"
+import French_Flag from "../../French_Flag.png"
+import UK_Flag from "../../UK_Flag.png"
 
 export function Pannel() {
     
@@ -27,17 +29,17 @@ export function Pannel() {
 
     $(document).ready(function() {
         $(".About").on("click", function() {
-            $(".About").css({ "text-decoration":"underline", "text-underline-offset":"5px", "text-decoration-color":"purple"});
+            $(".About").css({ "background": "rgba(255, 254, 243, 0.9)", "border-radius":"5px"});
             $(".Project").removeAttr('style');
             $(".Contact").removeAttr('style');
         })
         $(".Project").on("click", function() {
-            $(".Project").css({"text-decoration":"underline", "text-underline-offset":"5px"});
+            $(".Project").css({"background": "rgba(255, 254, 243, 0.9)", "border-radius":"5px"});
             $(".About").removeAttr('style');
             $(".Contact").removeAttr('style');
         })
         $(".Contact").on("click", function() {
-            $(".Contact").css({"text-decoration":"underline", "text-underline-offset":"5px"});
+            $(".Contact").css({"background": "rgba(255, 254, 243, 0.9)", "border-radius":"5px"});
             $(".Project").removeAttr('style');
             $(".About").removeAttr('style');
         })
@@ -53,9 +55,9 @@ export function Pannel() {
                     <br />
                 </div>
                 <div className="ChooseLanguage">
-                    <button className="NewLangage" onClick={() => { handleCookies("FR")}}>FR</button>
+                    <button className="NewLangage" onClick={() => { handleCookies("FR")}}><img src={French_Flag} alt="French Flag" width="25" height="18"/></button>
                      | 
-                    <button className="NewLangage" onClick={() => { handleCookies("EN")}}>EN</button>
+                    <button className="NewLangage" onClick={() => { handleCookies("EN")}}><img src={UK_Flag} alt="UK Flag" width="25" height="18"/></button>
                 </div>
             </div>
             <div className="ButtonPannel">

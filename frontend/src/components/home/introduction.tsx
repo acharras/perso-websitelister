@@ -1,9 +1,13 @@
 import "./introduction.css"
 import {send, init} from "emailjs-com"
 import { useCookies } from "react-cookie"
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import  Contact  from "./Contact"
 import $ from "jquery"
 
 function TextFR() {
+      
     return (
         <p className="TextZone">
             <div id="IntroAboutContent" className="IntroAbout">
@@ -37,7 +41,7 @@ function TextFR() {
                 NB : Je ne suis pas graphiste si vous souhaitez un logo ou des designs spécifiques sur votre site je vous conseille de passer voir une personne qui sera apte à faire ça en amont.
             </div>
             <div id="IntroContactContent" className="IntroContact">
-                <br/>
+            <br/>
                 <strong>· Prendre RDV (mail type) ·</strong>
                 <br/>
                 <br/>
@@ -52,6 +56,7 @@ function TextFR() {
                 <br/>
                 <br/>
                 NB : Je ne suis pas graphiste si vous souhaitez un logo ou des designs spécifiques sur votre site je vous conseille de passer voir une personne qui sera apte à faire ça en amont.
+                <Contact />
             </div>
         </p>
     )
@@ -116,19 +121,19 @@ export function Introduction() {
 
     $(document).ready(function() {
         $(".IntroAbout").on("mouseover", function() {
-            $(".BtnAbout").css({"text-decoration":"underline", "text-underline-offset":"5px"});
-            $(".BtnProject").removeAttr('style');
-            $(".BtnContact").removeAttr('style');
+            $(".About").css({"background": "rgba(255, 254, 243, 0.9)", "border-radius":"5px"});
+            $(".Project").removeAttr('style');
+            $(".Contact").removeAttr('style');
         })
         $(".IntroProject").on("mouseover", function() {
-            $(".BtnProject").css({"text-decoration":"underline", "text-underline-offset":"5px"});
-            $(".BtnAbout").removeAttr('style');
-            $(".BtnContact").removeAttr('style');
+            $(".Project").css({"background": "rgba(255, 254, 243, 0.9)", "border-radius":"5px"});
+            $(".About").removeAttr('style');
+            $(".Contact").removeAttr('style');
         })
         $(".IntroContact").on("mouseover", function() {
-            $(".BtnContact").css({"text-decoration":"underline", "text-underline-offset":"5px"});
-            $(".BtnProject").removeAttr('style');
-            $(".BtnAbout").removeAttr('style');
+            $(".Contact").css({"background": "rgba(255, 254, 243, 0.9)", "border-radius":"5px"});
+            $(".Project").removeAttr('style');
+            $(".About").removeAttr('style');
         })
     });
     

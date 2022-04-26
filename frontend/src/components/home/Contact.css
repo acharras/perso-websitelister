@@ -1,0 +1,98 @@
+.contact-form {
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+
+.container {
+    display: flex; 
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.form-wrapper {
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.label-wrapper {
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#NameEmailLabel {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 5%;
+}
+
+#NameItem {
+    width: 50%;
+    height: 100%;
+    background: #111118;
+}
+
+#EmailItem {
+    width: 50%;
+    height: 100%;
+    background: #111118;
+}
+
+#SubjectDiv {
+    width: 100%;
+    height: 5%;
+}
+
+#SubjectItem {
+    width: 75%;
+    height: 100%;
+    background: #111118;
+}
+
+#MessageDiv {
+    width: 100%;
+    height: 50%;
+}
+
+#MessageItem {
+    width: 75%;
+    height: 100%;
+    background: #111118;
+}
+
+.SubmitBtn {
+    padding: 0 23px;
+    height: 40px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 34px;
+    border: 2px solid #008bff;
+    border-radius: 4px;
+    font-size: 14px;
+    position: relative;
+    z-index: 2;
+    background: #111118;
+    color: #008bff;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+
+.SubmitBtn:hover {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transition-duration: 500ms;
+}
